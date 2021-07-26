@@ -1,0 +1,26 @@
+{
+  "name": "Aluraflix-Backend",
+  "version": "1.0.0",
+  "description": "Este projeto tem por objetivo desenvolver o back-end da aplicação Aluraflix usando API Rest baseada em Nodejs, Nodemon, Express, JWT, DatoCMS, DatoCMS-CLI, e usando o Bookeper e Insomnia para testar a conectividade da aplicação com o webserver",
+  "main": "index.js",
+  "repository": "https://github.com/Isaachintosh/aluraflix-full-stack",
+  "author": "Isaac Mello <isaac.tuning@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "datocms-client": "^3.4.12",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-validator": "^6.12.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  }
+}
